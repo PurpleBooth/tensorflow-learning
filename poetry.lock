@@ -1258,6 +1258,36 @@ typing-extensions = ">=3.6.6"
 wrapt = ">=1.11.0"
 
 [[package]]
+name = "tensorflow-gpu"
+version = "2.8.0"
+description = "TensorFlow is an open source machine learning framework for everyone."
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+absl-py = ">=0.4.0"
+astunparse = ">=1.6.0"
+flatbuffers = ">=1.12"
+gast = ">=0.2.1"
+google-pasta = ">=0.1.1"
+grpcio = ">=1.24.3,<2.0"
+h5py = ">=2.9.0"
+keras = ">=2.8.0rc0,<2.9"
+keras-preprocessing = ">=1.1.1"
+libclang = ">=9.0.1"
+numpy = ">=1.20"
+opt-einsum = ">=2.3.2"
+protobuf = ">=3.9.2"
+six = ">=1.12.0"
+tensorboard = ">=2.8,<2.9"
+tensorflow-io-gcs-filesystem = ">=0.23.1"
+termcolor = ">=1.1.0"
+tf-estimator-nightly = "2.8.0.dev2021122109"
+typing-extensions = ">=3.6.6"
+wrapt = ">=1.11.0"
+
+[[package]]
 name = "tensorflow-io-gcs-filesystem"
 version = "0.24.0"
 description = "TensorFlow IO"
@@ -1422,7 +1452,7 @@ python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.10,<3.11"
-content-hash = "9aa7949739fff2e8f4288596d9e1c990613744c0e0bcf3a0c210412f74cb4917"
+content-hash = "839e8d703881782505673bd27d2074c34df911ca01ccf131dadf50f849ce28e8"
 
 [metadata.files]
 absl-py = [
@@ -2277,6 +2307,16 @@ tensorflow = [
     {file = "tensorflow-2.8.0-cp39-cp39-macosx_10_14_x86_64.whl", hash = "sha256:52f225fecc688281b3ae2cba2b52d3ed6215ed4a3ffb686b9cfd09885ca65563"},
     {file = "tensorflow-2.8.0-cp39-cp39-manylinux2010_x86_64.whl", hash = "sha256:9d91a989e5455ae713c03fd7236071ab3f232ad8ff2831f2658072933546091f"},
     {file = "tensorflow-2.8.0-cp39-cp39-win_amd64.whl", hash = "sha256:b360c13b3e58b9a5c0780cbdb6b549eea73f620275fa203f8508fe418ae02735"},
+]
+tensorflow-gpu = [
+    {file = "tensorflow_gpu-2.8.0-cp310-cp310-manylinux2010_x86_64.whl", hash = "sha256:1806ced7e76b86cab4c349078d1ee8697025b4cfcc0cf49884d210fa21957c1a"},
+    {file = "tensorflow_gpu-2.8.0-cp310-cp310-win_amd64.whl", hash = "sha256:8d4e748c1e96104e579606222b4f1996d741b372712cb9ed8c5ccf76bff682a0"},
+    {file = "tensorflow_gpu-2.8.0-cp37-cp37m-manylinux2010_x86_64.whl", hash = "sha256:d8a50aa74693c0f723b6d79d77125258075d511b8a42147251783a4cb3dc031b"},
+    {file = "tensorflow_gpu-2.8.0-cp37-cp37m-win_amd64.whl", hash = "sha256:e4e4abc52005f3dd173a27409dcca0c4e1a14c5bdba23506fb0dc370e6cf8d4c"},
+    {file = "tensorflow_gpu-2.8.0-cp38-cp38-manylinux2010_x86_64.whl", hash = "sha256:eb511fbeaf2241cb27d7c164e802a92681fb58adb0aa652c39f1a7f08a522901"},
+    {file = "tensorflow_gpu-2.8.0-cp38-cp38-win_amd64.whl", hash = "sha256:2b99e820f93025bfa85fa5b5fdd85317b1d49078907a7acdd5297b7f2e09da21"},
+    {file = "tensorflow_gpu-2.8.0-cp39-cp39-manylinux2010_x86_64.whl", hash = "sha256:8ab51fa22447c3fd588c5e272088915510ce3b0641dd11b2fd473d4cb707827f"},
+    {file = "tensorflow_gpu-2.8.0-cp39-cp39-win_amd64.whl", hash = "sha256:9466769066868ce380901ce7696da98be14709377fd66a8578c3031fc72204f7"},
 ]
 tensorflow-io-gcs-filesystem = [
     {file = "tensorflow_io_gcs_filesystem-0.24.0-cp310-cp310-macosx_10_14_x86_64.whl", hash = "sha256:9c00f9a9880477b1dff0c71ee6734421ce99ac484ca2151793ebf2681fc0cb4c"},

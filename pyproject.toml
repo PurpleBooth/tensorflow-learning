@@ -9,7 +9,6 @@ python = ">=3.10,<3.11"
 tensorflow = "^2.8.0"
 pandas = "^1.4.0"
 scikit-learn = "^1.0.2"
-tensorflow-gpu = "^2.8.0"
 
 [tool.poetry.dev-dependencies]
 jupyterlab = "^3.2.9"
